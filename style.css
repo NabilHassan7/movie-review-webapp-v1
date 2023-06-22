@@ -52,9 +52,9 @@ body{
 }
 
 .search-container input{
-    background-color: transparent;
+    background-color: #ffffff;
     border: 1px solid #a0a0a0;
-    color: #ffffff;
+    color: #000000;
     padding: 0.7em;
 }
 
