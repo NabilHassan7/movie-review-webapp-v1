@@ -11,8 +11,29 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* 
+color list 
+shade of purple - 541480
+shade of yellow - ffb92a 
+*/
+
 /* body */
 body{
     height: 100vh; /* covers full window */
     background: linear-gradient(#541480 50%, #ffffff 50%);
+}
+
+/* main container */
+.container{
+    font-size: 16px;
+    width: 90vw; /* leaving space for responsive design */
+    max-width: 37.5em;
+    padding: 3em 1.8em;
+    background-color: #ffb92a; /* backup color - #1e293b */
+    position: absolute;
+    transform: translate(-50%, -50%); /* centering */
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2); /* color along with intensity */
 }
