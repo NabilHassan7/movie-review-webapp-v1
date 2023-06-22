@@ -2,3 +2,17 @@
 
 /* Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* html style - applies to all elements */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body */
+body{
+    height: 100vh; /* covers full window */
+    background: linear-gradient(#541480 50%, #ffffff 50%);
+}
