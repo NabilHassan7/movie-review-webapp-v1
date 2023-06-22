@@ -37,3 +37,34 @@ body{
     border-radius: 0.6em;
     box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2); /* color along with intensity */
 }
+
+/* search container */
+.search-container{
+    display: grid;
+    grid-template-columns: 9fr 3fr; /* positioning the containers */
+    gap: 1.2em;
+}
+
+.search-container input, .search-container button{
+    font-size: 0.9em;
+    outline: none; /* removing the border outline */
+    border-radius: 0.3em;
+}
+
+.search-container input{
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    color: #ffffff;
+    padding: 0.7em;
+}
+
+.search-container input:focus{
+    border: #ffffff;
+}
+
+.search-container button{
+    color: #ffffff;
+    background-color: #541480;
+    border: none;
+    cursor: pointer; /* changes pointer design on hover */
+}
