@@ -47,6 +47,17 @@ let getMovie = () => {
                         <p>${data.Actors}</p>
                 `;
             }
+
+            // if title doesn't exist in the database
+            else{
+                result.innerHTML = `<h3 class="msg">${data.Error}</h3>`;
+            }
         })
+
+        // error in API call
+        .catch(() => {
+            result.innerHTML = `<h3 class="msg">Error in API call</h3>`;
+        });
     }
-}
+};
+
