@@ -79,4 +79,4 @@ let getMovie = () => {
 
 // click event to intiate function call
 searchButton.addEventListener("click", getMovie);
-window.addEventListener("load",getMovie);
+//window.addEventListener("load",getMovie);

@@ -3,6 +3,9 @@
 /* Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+/* Yellowtail */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
 /* html style - applies to all elements */
 *{
     margin: 0px;
@@ -21,6 +24,17 @@ shade of yellow - ffb92a
 body{
     height: 100vh; /* covers full window */
     background: linear-gradient(#541480 50%, #f7a400 50%);
+}
+
+/* site title */
+.site-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.site-title > h1{
+    font-family: 'Yellowtail', cursive;
+    color: #FF4040;
 }
 
 /* main container */
