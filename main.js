@@ -4,6 +4,15 @@ let movieNameRef = document.getElementById("movie-name"); // stores title input 
 let searchButton = document.getElementById("search-btn");
 let result = document.getElementById("result");
 
+// press Enter to search function
+movieNameRef.addEventListener('keypress', function(event){
+    if(event.key === 'Enter'){
+        event.preventDefault();
+        searchButton.click();
+    }
+});
+
+
 // API fetch functions
 
 // function to get user input and send API call
