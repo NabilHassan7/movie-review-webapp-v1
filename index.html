@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Placeholder title - Review Site using API</title>
-
+    
     <!-- importing stylesheet -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Placeholder title - Review Site using API</title>
 </head>
 <body>
     
@@ -14,16 +16,16 @@
     <div class="container">
         <!-- search box -->
         <div class="search-container">
-            <input type="text" id="title-name" placeholder="Enter any title to search" value="Wednesday">
+            <input type="text" id="movie-name" placeholder="Enter any title to search" value="John Wick">
             <!-- search button -->
-            <button id="search-button">Search</button>
+            <button id="search-btn">Search</button>
         </div>
         <!-- result display window -->
-        <div class="result"></div>
+        <div id="result"></div>
     </div>
 
     <!-- importing JS files -->
-    <script src="./main.js"></script>
-    <script src="./config.js"></script>
+    <script src="config.js"></script>  
+    <script src="main.js"></script>
 </body>
 </html>
