@@ -18,7 +18,7 @@ movieNameRef.addEventListener('keypress', function(event){
 // function to get user input and send API call
 let getMovie = () => {
     let movieName = movieNameRef.value; // stores the user title input
-    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`; /* API call */
+    let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${key}`; /* API call */
 
     // checking for empty input field
     if(movieName.length <= 0){
